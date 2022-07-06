@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cờ ca rô</title>
+</head>
+<body>
+<script>
+    let a =[15,3,4,95,7,9,12,55,76,88]
+    let minx =a[0]
+    let index = 0
+    for (let i = 0; i <a.length ; i++) {
+        if(a[i] < minx){
+            minx=a[i]
+            index=i
+        }
+    }
+    document.write(a.join(";")+ "<br>")
+    document.write("so nhỏ nhất trong day la"+' '+ minx + " tai vi tri"+' '+index)
+
+</script>
+</body>
+</html>
